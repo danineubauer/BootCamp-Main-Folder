@@ -1,0 +1,35 @@
+
+
+h1 {
+    left: 100px;
+}
+
+p {
+    left: 50px;
+}
+
+.one { 
+    position: fixed;
+    height: 100px;
+    width: 150px;
+    color: pink;
+    background-color: grey;
+}
+
+.two {
+    position: relative;
+    height: 100px;
+    width: 150px;
+    color: pink;
+    background-color: grey;
+    left: 100px;
+}
+
+.three {
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    color: pink;
+    background-color: grey;
+    right: -50px;
+}
